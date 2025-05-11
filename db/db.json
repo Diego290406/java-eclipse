@@ -1,0 +1,91 @@
+{
+    "pratos": [
+        {
+            "id": "1",
+            "nome": "Strogonoff de Frango",
+            "descrição":"Um clássico cremoso que traz o sabor do almoço em família." ,
+            "imagem":"./db/strogonoff de frango.webp",
+            "ingredientes": [
+                "1/2 xícara de chá de óleo",
+                "4 ovos",
+                "2 e 1/2 xícaras de chá de farinah de trigo",
+                "3 cenouras médias raladas",
+                "2 xícaras de chá de açúcar",
+                "1 colher de sopa de fermento em pó",
+                "1 colher de sopa de manteiga",
+                "p1 xícra de chá de açúcar",
+                "2 colheres (sopa) de maionese",
+                "3 colheres de sopa de chocolate em pó",
+                "1 xícara de chá de leite"
+            ],
+            "Modo de Preparo":[
+                "Massa: em um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture.",
+                "Acrescente o açúcar e bata novamente por 5 minutos.",
+                "Em uma tigela ou na batedeira, adicione a farinah de trigo e depois misture novamente",
+                "Acrescente o fermento e misture lentamente com uma colher.",
+                "Asse em um forno preaquecido a 180°C por aproximadamente 40 minutos.",
+                "Cobertura: Despeje em uma tigela a manteiga, o chocolate em pó, o açúcar e o leite, depois misture.",
+                "leve a mistura ao fogo e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo."
+            ]
+        },
+        {
+            "id": "2",
+            "nome": "Chipa",
+            "descrição":"O sabor caseiro que lembra o lanche gostoso na casa da vó." ,
+            "imagem":"./db/chipa.jpg" ,
+            "ingredientes": [
+                "500 g de massa de lasanha",
+                "sal a gostos",
+                "2 caixas de creme de leite",
+                "3 colheres de farinha de trigo",
+                "500 g de mussarela",
+                "2 copos de leite",
+                "3 colheres de óleo",
+                "3 dentes de alho amassados",
+                "2500g de carne moída",
+                "3 colheres de manteiga",
+                "500g de presunto",
+                "1 cebola ralada",
+                "1 caixa de molho de tomate",
+                "1 pacote de queijo ralado"
+            ],
+            "Modo de Preparo":[
+                "Lasanha: Cozinhe a massa segundo as orientações do fabricante, despeje em refratário com água gelada para não grudar e reserve.",
+                "Molho à bolonhesa: refogue o alhom a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve.",
+                "Molho branco: Derrata a margarina, coloque as 3 colheres de farinha de trigo e mexa.",
+                "Despeje o leite aos poucos e continue mexendo.",
+                "Por último, coloque o creme de leite, mexa por 1 minuto e desligue o fogo.",
+                "Montagem: Despeje uma parte do molho à bolonhesa em um refratário, a metade da massas, a metade do presunto, a metade da mussarela, todo o molho branco e o restante da massa.",
+                "Repita as camadas até a borda do recipiente.",
+                "Finalize com o queijo ralado e leve ao forno alto (220°), preaquecido, por cerca de 20 minutos."
+            ]
+        },
+        {
+            "id": "3",
+            "nome": "Bolo de Cenoura",
+            "descrição":"Doce e macio, com cobertura de chocolate que abraça a infância." ,
+            "imagem":"./db/bolo-de-cenoura.jpg" ,
+            "ingredientes": [
+                "500g de polvilho doce",
+                "250 ml de leite integral",
+                "1 collher/sopa rasa de sal",
+                "350g de queijo meia cura ou mussarela ralada no ralador",
+                "1 ou 2 ovos",
+                "1/2 copo de óleo",
+                "1 pacote de queijo ralado parmesão"
+            ],
+            "Modo de Preparo":[
+                "Primeiro, coloqueo leite e o óleo em uma panela pra esquentar, desligue o fogo imediatamente assim que começar a ferver",
+                "Em uma tigela grande, coloque o polvilho e o sal, misture bem, logo em seguida, despeje o conteúdo da panela ainda quente, musture bem, primeiro com uma colher e depois com a mão.",
+                "Em seguida coloque o queijo ralado e um pouco do queijo do prato e também 1 ovo, continue misturando bem.",
+                "Coloque o resto do queijo e verifique se a massa esta com uma textura boa, nem muito oleosa e nem muito seca. ",
+                "se você sentir que está muito seca, coloque ooutro ovo, se ela ficar oleosa, coloque mais um pouco de polvilho.",
+                "Essa massa deverá soltar da tigela e também da sua mão.",
+                "Experimente a massa e veja se esta boa de sal",
+                "Agora é só fazer bolinhas e colocar na assadeira, deixando um pequeno espaço entre um pão e o outro.",
+                "Não é necessário untar a assadeira.",
+                "Deixe no forno em temperatura média (230°) até dourar um pouco."
+            ]
+        }
+    ]
+}
