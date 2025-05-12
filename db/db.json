@@ -4,7 +4,8 @@
             "id": "1",
             "nome": "Strogonoff de Frango",
             "descrição":"Um clássico cremoso que traz o sabor do almoço em família." ,
-            "imagem":"./db/strogonoff de frango.webp",
+            "imagem":"http://localhost:3000/db/strogonoff-de-frango.webp",
+            "tempo de preparo": "1 hora",
             "ingredientes": [
                 "1/2 xícara de chá de óleo",
                 "4 ovos",
@@ -32,7 +33,8 @@
             "id": "2",
             "nome": "Chipa",
             "descrição":"O sabor caseiro que lembra o lanche gostoso na casa da vó." ,
-            "imagem":"./db/chipa.jpg" ,
+            "imagem":"http://localhost:3000/db/Chipa.jpg" ,
+            "tempo de preparo": "1 hora",
             "ingredientes": [
                 "500 g de massa de lasanha",
                 "sal a gostos",
@@ -64,7 +66,8 @@
             "id": "3",
             "nome": "Bolo de Cenoura",
             "descrição":"Doce e macio, com cobertura de chocolate que abraça a infância." ,
-            "imagem":"./db/bolo-de-cenoura.jpg" ,
+            "imagem":"http://localhost:3000/db/bolo-de-cenoura.jpg",
+            "tempo de preparo": "40 minutos",
             "ingredientes": [
                 "500g de polvilho doce",
                 "250 ml de leite integral",
@@ -85,6 +88,145 @@
                 "Agora é só fazer bolinhas e colocar na assadeira, deixando um pequeno espaço entre um pão e o outro.",
                 "Não é necessário untar a assadeira.",
                 "Deixe no forno em temperatura média (230°) até dourar um pouco."
+            ]
+        }, 
+        {
+            "id": "4",
+            "nome": "Lasanha",
+            "descrição":"Camadas de sabor e carinho que reúnem toda a família à mesa." ,
+            "imagem":"http://localhost:3000/db/lasanha.jpg",
+            "tempo de preparo": "50 minutos",
+            "ingredientes": [
+                "500 g de massa de lasanha",
+                "sal a gostos",
+                "2 caixas de creme de leite",
+                "3 colheres de farinha de trigo",
+                "500 g de mussarela",
+                "2 copos de leite",
+                "3 colheres de óleo",
+                "3 dentes de alho amassados",
+                "2500g de carne moída",
+                "3 colheres de manteiga",
+                "500g de presunto",
+                "1 cebola ralada",
+                "1 caixa de molho de tomate",
+                "1 pacote de queijo ralado"
+            ],
+            "Modo de Preparo":[
+                "Lasanha: Cozinhe a massa segundo as orientações do fabricante, despeje em refratário com água gelada para não grudar e reserve.",
+                "Molho à bolonhesa: refogue o alhom a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve.",
+                "Molho branco: Derrata a margarina, coloque as 3 colheres de farinha de trigo e mexa.",
+                "Despeje o leite aos poucos e continue mexendo.",
+                "Por último, coloque o creme de leite, mexa por 1 minuto e desligue o fogo.",
+                "Montagem: Despeje uma parte do molho à bolonhesa em um refratário, a metade da massas, a metade do presunto, a metade da mussarela, todo o molho branco e o restante da massa.",
+                "Repita as camadas até a borda do recipiente.",
+                "Finalize com o queijo ralado e leve ao forno alto (220°), preaquecido, por cerca de 20 minutos."
+            ]
+        },
+        {
+            "id": "5",
+            "nome": "Pão de Queijo",
+            "descrição":"Quentinho e macio, perfeito para compartilhar momentos especiais." ,
+            "imagem":"http://localhost:3000/db/pao de queijo.webp",
+            "tempo de preparo": "1 hora",
+            "ingredientes": [
+                "500g de polvilho doce",
+                "250 ml de leite integral",
+                "1 collher/sopa rasa de sal",
+                "350g de queijo meia cura ou mussarela ralada no ralador",
+                "1 ou 2 ovos",
+                "1/2 copo de óleo",
+                "1 pacote de queijo ralado parmesão"
+            ],
+            "Modo de Preparo":[
+                "Primeiro, coloqueo leite e o óleo em uma panela pra esquentar, desligue o fogo imediatamente assim que começar a ferver",
+                "Em uma tigela grande, coloque o polvilho e o sal, misture bem, logo em seguida, despeje o conteúdo da panela ainda quente, musture bem, primeiro com uma colher e depois com a mão.",
+                "Em seguida coloque o queijo ralado e um pouco do queijo do prato e também 1 ovo, continue misturando bem.",
+                "Coloque o resto do queijo e verifique se a massa esta com uma textura boa, nem muito oleosa e nem muito seca. ",
+                "se você sentir que está muito seca, coloque ooutro ovo, se ela ficar oleosa, coloque mais um pouco de polvilho.",
+                "Essa massa deverá soltar da tigela e também da sua mão.",
+                "Experimente a massa e veja se esta boa de sal",
+                "Agora é só fazer bolinhas e colocar na assadeira, deixando um pequeno espaço entre um pão e o outro.",
+                "Não é necessário untar a assadeira.",
+                "Deixe no forno em temperatura média (230°) até dourar um pouco."
+            ]
+        },
+        {
+            "id": "6",
+            "nome": "Hamburguer",
+            "descrição":"Suculento e irresistível, ideal para encontros cheios de alegria." ,
+            "imagem":"http://localhost:3000/db/hamburguer.webp",
+            "tempo de preparo": "40 minutos",
+            "ingredientes": [
+                "3kg de carne moída (carne magra e macia)",
+                "1 ovo",
+                "30 ml de água gelada",
+                "300g de bacon moído",
+                "3 colheres de sopa de farinha de trigo ",
+                "3 colheress de sopa de tempero caseiro feito com alho, sal, cebola, pimenta e cheiro-verde processados no liquidificador."
+            ],
+            "Modo de Preparo":[
+                "Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.",
+                "faça porções de 90g a 100g",
+                "Forre um plástico molhado em uma bancada e modele os hambúrgueres utilizando um aro como base",
+                "Ffaça um de cada vez e retire o aro logo em seguida",
+                "forre uma assadeira de metal com plástico, coloque os hambúrgueres e intercale camadas de carne e plásticos (sem apertar).",
+                "Faça no máximo 4 camadas por forma e leve para congelar.",
+                "Retire do congelador, frite ou asse e está pronto."
+            ]
+        },
+        {
+            "id": "7",
+            "nome": "Macarrão Farfalle ao molho de queijo",
+            "descrição":"Uma combinação de sabores que aquece o coração a cada garfada." ,
+            "imagem":"http://localhost:3000/db/macarrao farfalle.jpeg",
+            "tempo de preparo": "50 minutos",
+            "ingredientes": [
+                "500g de macarrão gravatinha",
+                "1 copo de requeijão",
+                "1/2 xícara de chá de queijo gorgonzola picado",
+                "1 xícara de chá cebola picada",
+                "1/2 xícara de chá de pimentão verde picado",
+                "2 dentes de alho picado",
+                "3 colheres de sopa de azeite",
+                "queijo parmesão a gosto",
+                "1 caixa de creme de leite",
+                "1 xícara de chá de mussarela picada",
+                "1/2 xícara de chá de azeitona picada",
+                "1 xícara de chá de tomate picado",
+                "1/2 xícara de chá de bacon picado",
+                "2 colheres de sopa de alcaparras",
+                "leite"
+            ],
+            "Modo de Preparo":[
+                "Cozinhe o macarrão al dente com azeite e sal",
+                "Frite o bacon no azeite e retire o excesso de óleo se necessário.",
+                "refogue o alho, a cebola, o pimentão, o tomate, a azeitona e as alcaparras.",
+                "Quando o tomate estiver dissolvendo, acrescente o creme de leite e o requeijão, misture bem e deixe ferver.",
+                "Fervendo, acrescente a mussarela e o gorgonzola, misture até derreter.",
+                "Coloque o leite até obter uma consistência de creme mole (não deixe ficar muito ralo e nem muito grosso).",
+                "Sirva com queijo parmesão."
+            ]
+        },
+        {
+            "id": "8",
+            "nome": "Salada de Fruta",
+            "descrição":"Leve, fresca e perfeita para os momentos de cuidado e carinho." ,
+            "imagem":"http://localhost:3000/db/salada de fruta.webp",
+            "tempo de preparo": "20 minutos",
+            "ingredientes": [
+                "3 cachos de uva",
+                "2 maçãs com casca",
+                "10 cerejas",
+                "2 pêssegos (com casca)",
+                "3 bananas",
+                "200ml de iorgurte sabor salada de frutas"
+            ],
+            "Modo de Preparo":[
+                "Lavar bem todas as frutas.",
+                "Cortar todos os ingredientes em pedacinhos, cuidando para tirar as sementes da cereja, da maçã e do pêssego.",
+                "Misturar todos os ingredientes em uma tigela.",
+                "Para finalizar, misturar o iogurte às frutas"
             ]
         }
     ]
