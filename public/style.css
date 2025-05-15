@@ -95,7 +95,7 @@ footer .informações {
     justify-content: center;
 }
 
-.row.row-cols-1.row-cols-md-2.g-4 {
+#pratos {
 
     display: flex;
     justify-content: space-between;
@@ -136,12 +136,21 @@ footer .informações {
 
 .card {
 
+    width: 200px;
     height: 360px;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
     cursor: pointer;
 }
 
-#logo,
-#strogonoff {
+.card-img-top {
+    
+    height: auto;
+    margin-top: 5px;
+}
+
+#logo {
 
     border-radius: 15px;
 }
