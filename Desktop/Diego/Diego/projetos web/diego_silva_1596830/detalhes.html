@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes da Receita</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="cabecario">
+      <a href="index.html"> <img id="logo" src="ChatGPT Image 16 de abr. de 2025, 13_00_32.png" width="100px" /> </a>
+      <h2 class="titulo">Mapa do Sabor</h2>
+    </div>
+  </header>
+
+  <div class="geral">
+    <h5>Informações Gerais</h5>
+  </div>
+
+  <div class="container mt-4">
+
+    <div class="centralizar">
+      <h1 id="titulo-prato" class="mb-4"></h1>
+    </div>
+    <p><strong>Tempo de Preparo:</strong> <span id="tempo-preparo"></span></p>
+
+    <div class="ingre">
+
+      <div class="centralizar">
+        <h3>Ingredientes:</h3>
+      </div>
+      <ul id="ingredientes-lista"></ul>
+
+    </div>
+
+    <div class="prep">
+
+      <div class="centralizar">
+
+        <h3>Modo de Preparo:</h3>
+      </div>
+      <ol id="modo-preparo-lista"></ol>
+
+
+    </div>
+  </div>
+
+  <div class="outros">
+    <h5>Imagens do prato</h5>
+  </div>
+
+  <div class="centralizar">
+
+    <div class="imagem">
+
+      <div class="centralizar">
+        <div id="imagem-prato"></div>
+      </div>
+      <div class="centralizar">
+        <div id="descricao"></div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
